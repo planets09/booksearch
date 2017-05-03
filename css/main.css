@@ -1,13 +1,6 @@
 
-/*Instagram Token:
-*//*3326030.1677ed0.65b38b60c13442f68c88e34c7063e7bf
-*/
-
-/*font-family: 'Archivo Black', sans-serif;
-font-family: 'Poiret One', cursive;*/
-
 body {
-	background-image: url(../images/beachbooks.jpg);
+	background-image: url("../images/beachbooks.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -26,7 +19,13 @@ body {
 }
 
 #results{
+	font-family: 'Poiret One', cursive;
 	background-color: rgba(208,219,223,0.6)
+}
+
+#results h2 {
+	font-style: italic;
+	font-weight: bold;
 }
 
 .animated {
